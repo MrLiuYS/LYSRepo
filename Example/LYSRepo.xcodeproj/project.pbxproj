@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2BF3F421033D80E23974A48A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		49749064D3A6FDAC19F1D34C /* LYSRepo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LYSRepo.podspec; path = ../LYSRepo.podspec; sourceTree = "<group>"; };
+		2BF3F421033D80E23974A48A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		49749064D3A6FDAC19F1D34C /* LYSRepo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYSRepo.podspec; path = ../LYSRepo.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LYSRepo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSRepo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		A26A1C7ADABCCA858705DE75 /* Pods-LYSRepo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSRepo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYSRepo_Tests/Pods-LYSRepo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A3E17B759EBBD9DFFC9C9FBF /* Pods-LYSRepo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSRepo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYSRepo_Example/Pods-LYSRepo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BB99D5D2A6CDB8E0A57E88F9 /* Pods-LYSRepo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSRepo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYSRepo_Tests/Pods-LYSRepo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BDEBE9E85F5D67F70C7E9358 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BDEBE9E85F5D67F70C7E9358 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E73E1CEA7174712267A147EB /* Pods-LYSRepo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSRepo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYSRepo_Example/Pods-LYSRepo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EBF04DA21CD04C2B24A22F2C /* Pods_LYSRepo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYSRepo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,9 +95,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D7E0BE71E70320C00BFEEC9 /* LYSRepo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LYSRepo;
+			path = ../LYSRepo;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				0D7E0BE71E70320C00BFEEC9 /* LYSRepo */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LYSRepo */,
 				6003F5B5195388D20070C39A /* Tests */,

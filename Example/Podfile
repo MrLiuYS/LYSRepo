@@ -1,7 +1,6 @@
 use_frameworks!
 
 target 'LYSRepo_Example' do
-  pod 'LYSRepo', :path => '../'
 
   target 'LYSRepo_Tests' do
     inherit! :search_paths
