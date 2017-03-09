@@ -51,9 +51,9 @@
         
         
         [view lys_AddAliquotsViews:subViews
-                        LRpadding:10
-                      viewPadding:10
-                        direction:LYSAliquotDirection_H];
+                         LRpadding:10
+                       viewPadding:10
+                         direction:LYSAliquotDirection_H];
         
         
     }
@@ -81,9 +81,9 @@
         
         
         [view lys_AddAliquotsViews:subViews
-                        LRpadding:10
-                      viewPadding:10
-                        direction:LYSAliquotDirection_V];
+                         LRpadding:10
+                       viewPadding:10
+                         direction:LYSAliquotDirection_V];
         
         
     }
@@ -116,9 +116,9 @@
         }
         
         UIView * contentView = [view lys_AddInsideCenterViews:subViews
-                           viewPadding:10
-                          centerOffset:0
-                             direction:LYSAliquotDirection_H];
+                                                  viewPadding:10
+                                                 centerOffset:0
+                                                    direction:LYSAliquotDirection_H];
         
         contentView.backgroundColor = [LYSColor randomColor];
         

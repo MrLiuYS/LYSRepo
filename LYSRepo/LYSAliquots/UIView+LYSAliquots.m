@@ -12,9 +12,9 @@
 
 
 - (void)lys_AddAliquotsViews:(NSArray<UIView *> *)views
-                  LRpadding:(CGFloat)LRpadding
-                viewPadding:(CGFloat)viewPadding
-                  direction:(LYSAliquotDirection)direction{
+                   LRpadding:(CGFloat)LRpadding
+                 viewPadding:(CGFloat)viewPadding
+                   direction:(LYSAliquotDirection)direction{
     
     UIView *lastView;
     for (UIView *view in views) {
@@ -58,9 +58,9 @@
 
 
 - (UIView *)lys_AddInsideCenterViews:(NSArray *)views
-                    viewPadding:(CGFloat)viewPadding
-                   centerOffset:(CGFloat)centerOffset
-                      direction:(LYSAliquotDirection)direction
+                         viewPadding:(CGFloat)viewPadding
+                        centerOffset:(CGFloat)centerOffset
+                           direction:(LYSAliquotDirection)direction
 {
     UIView * contentView = [[UIView alloc]init];
     [self addSubview:contentView];

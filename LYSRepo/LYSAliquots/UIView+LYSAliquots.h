@@ -37,17 +37,17 @@ typedef NS_ENUM(NSUInteger, LYSAliquotDirection) {
  @param direction 放置方向
  */
 - (void)lys_AddAliquotsViews:(NSArray<UIView *> *)views
-                     LRpadding:(CGFloat)LRpadding
-                   viewPadding:(CGFloat)viewPadding
-                     direction:(LYSAliquotDirection)direction;
+                   LRpadding:(CGFloat)LRpadding
+                 viewPadding:(CGFloat)viewPadding
+                   direction:(LYSAliquotDirection)direction;
 
 
 
 
 - (UIView *)lys_AddInsideCenterViews:(NSArray *)views
-                       viewPadding:(CGFloat)viewPadding
-                   centerOffset:(CGFloat)centerOffset
-                         direction:(LYSAliquotDirection)direction;
+                         viewPadding:(CGFloat)viewPadding
+                        centerOffset:(CGFloat)centerOffset
+                           direction:(LYSAliquotDirection)direction;
 
 
 @end
