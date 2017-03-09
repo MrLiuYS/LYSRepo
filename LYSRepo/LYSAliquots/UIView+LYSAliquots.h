@@ -36,10 +36,18 @@ typedef NS_ENUM(NSUInteger, LYSAliquotDirection) {
  @param viewPadding 子视图间间距
  @param direction 放置方向
  */
-- (void)lys_AddliquotsViews:(NSArray<UIView *> *)views
+- (void)lys_AddAliquotsViews:(NSArray<UIView *> *)views
                      LRpadding:(CGFloat)LRpadding
                    viewPadding:(CGFloat)viewPadding
                      direction:(LYSAliquotDirection)direction;
+
+
+
+
+- (UIView *)lys_AddInsideCenterViews:(NSArray *)views
+                       viewPadding:(CGFloat)viewPadding
+                   centerOffset:(CGFloat)centerOffset
+                         direction:(LYSAliquotDirection)direction;
 
 
 @end

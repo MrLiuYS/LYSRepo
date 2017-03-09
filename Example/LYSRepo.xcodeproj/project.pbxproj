@@ -10,7 +10,6 @@
 		0D908DE71E711855004D0E29 /* LYSAliguotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D908DE61E711855004D0E29 /* LYSAliguotsViewController.m */; };
 		0D908DEB1E711949004D0E29 /* LYSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D908DEA1E711949004D0E29 /* LYSColor.m */; };
 		0D908DF21E711E58004D0E29 /* UIView+LYSAliquots.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D908DF11E711E58004D0E29 /* UIView+LYSAliquots.m */; };
-		0D908DF71E711FA5004D0E29 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0D908DF41E711FA5004D0E29 /* .gitkeep */; };
 		0D908DF81E711FA5004D0E29 /* LYSTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D908DF61E711FA5004D0E29 /* LYSTextfield.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -48,7 +47,6 @@
 		0D908DEA1E711949004D0E29 /* LYSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSColor.m; sourceTree = "<group>"; };
 		0D908DF01E711E58004D0E29 /* UIView+LYSAliquots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYSAliquots.h"; sourceTree = "<group>"; };
 		0D908DF11E711E58004D0E29 /* UIView+LYSAliquots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYSAliquots.m"; sourceTree = "<group>"; };
-		0D908DF41E711FA5004D0E29 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		0D908DF51E711FA5004D0E29 /* LYSTextfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSTextfield.h; sourceTree = "<group>"; };
 		0D908DF61E711FA5004D0E29 /* LYSTextfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSTextfield.m; sourceTree = "<group>"; };
 		2BF3F421033D80E23974A48A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 		0D908DF31E711FA5004D0E29 /* LYSTextfield */ = {
 			isa = PBXGroup;
 			children = (
-				0D908DF41E711FA5004D0E29 /* .gitkeep */,
 				0D908DF51E711FA5004D0E29 /* LYSTextfield.h */,
 				0D908DF61E711FA5004D0E29 /* LYSTextfield.m */,
 			);
@@ -337,7 +334,6 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				0D908DF71E711FA5004D0E29 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);

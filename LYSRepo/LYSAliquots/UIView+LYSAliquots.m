@@ -11,7 +11,7 @@
 @implementation UIView (LYSAliquots)
 
 
-- (void)lys_AddliquotsViews:(NSArray<UIView *> *)views
+- (void)lys_AddAliquotsViews:(NSArray<UIView *> *)views
                   LRpadding:(CGFloat)LRpadding
                 viewPadding:(CGFloat)viewPadding
                   direction:(LYSAliquotDirection)direction{
@@ -55,6 +55,68 @@
     
     
 }
+
+
+- (UIView *)lys_AddInsideCenterViews:(NSArray *)views
+                    viewPadding:(CGFloat)viewPadding
+                   centerOffset:(CGFloat)centerOffset
+                      direction:(LYSAliquotDirection)direction
+{
+    UIView * contentView = [[UIView alloc]init];
+    [self addSubview:contentView];
+    
+    UIView *lastView;
+    for (UIView *view in views) {
+        [contentView addSubview:view];
+        if (lastView) {
+            [view mas_updateConstraints:^(MASConstraintMaker *make) {
+                
+                if (direction == LYSAliquotDirection_H) {
+                    make.centerY.mas_equalTo(contentView.mas_centerY);
+                    make.left.mas_equalTo(lastView.mas_right).offset(viewPadding);
+                }else {
+                    make.centerX.mas_equalTo(contentView.mas_centerX);
+                    make.top.mas_equalTo(lastView.mas_bottom).offset(viewPadding);
+                }
+            }];
+        }else
+        {
+            [view mas_updateConstraints:^(MASConstraintMaker *make) {
+                
+                if (direction == LYSAliquotDirection_H) {
+                    
+                    make.left.equalTo(contentView);
+                    make.centerY.mas_equalTo(contentView.mas_centerY);
+                    
+                }else {
+                    
+                    make.top.equalTo(contentView);
+                    make.centerX.mas_equalTo(contentView.mas_centerX);
+                    
+                }
+            }];
+        }
+        lastView=view;
+    }
+    
+    [contentView mas_updateConstraints:^(MASConstraintMaker *make){
+        
+        if (direction == LYSAliquotDirection_H) {
+            make.right.mas_equalTo(lastView.mas_right);
+            make.centerX.mas_equalTo(self.mas_centerX).offset(centerOffset);
+            make.centerY.mas_equalTo(self.mas_centerY);
+            make.height.mas_equalTo(self.mas_height);
+        }else {
+            make.bottom.mas_equalTo(lastView.mas_bottom);
+            make.centerX.mas_equalTo(self.mas_centerX);
+            make.centerY.mas_equalTo(self.mas_centerY).offset(centerOffset);
+            make.width.mas_equalTo(self.mas_width);
+        }
+    }];
+    
+    return contentView;
+}
+
 
 
 
