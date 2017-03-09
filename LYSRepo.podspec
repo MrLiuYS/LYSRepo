@@ -25,10 +25,14 @@ TODO: Add long description of the pod here.
 
 
 
-  s.subspec 'LYSAliquots' do |ss|
-    ss.source_files = 'LYSRepo/LYSAliquots/**/*.{h,m}'
-    ss.dependency 'Masonry','~> 1.0.2'
-  end
+    s.subspec 'LYSAliquots' do |ss|
+        ss.source_files = 'LYSRepo/LYSAliquots/**/*.{h,m}'
+        ss.dependency 'Masonry','~> 1.0.2'
+    end
+
+    s.subspec 'LYSTextfield' do |ss|
+        ss.source_files = 'LYSRepo/LYSTextfield/**/*.{h,m}'
+    end
 
 
 
