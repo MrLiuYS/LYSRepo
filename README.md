@@ -22,7 +22,7 @@ pod "LYSRepo"
 
 ## Author
 
-3050700400@qq.com, 3050700400@qq.com
+MrLiuYS, 3050700400@qq.com
 
 ## License
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D908DE71E711855004D0E29 /* LYSAliguotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D908DE61E711855004D0E29 /* LYSAliguotsViewController.m */; };
+		0D908DEB1E711949004D0E29 /* LYSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D908DEA1E711949004D0E29 /* LYSColor.m */; };
+		0D908DF21E711E58004D0E29 /* UIView+LYSAliquots.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D908DF11E711E58004D0E29 /* UIView+LYSAliquots.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D908DE51E711855004D0E29 /* LYSAliguotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSAliguotsViewController.h; sourceTree = "<group>"; };
+		0D908DE61E711855004D0E29 /* LYSAliguotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSAliguotsViewController.m; sourceTree = "<group>"; };
+		0D908DE91E711949004D0E29 /* LYSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSColor.h; sourceTree = "<group>"; };
+		0D908DEA1E711949004D0E29 /* LYSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSColor.m; sourceTree = "<group>"; };
+		0D908DF01E711E58004D0E29 /* UIView+LYSAliquots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYSAliquots.h"; sourceTree = "<group>"; };
+		0D908DF11E711E58004D0E29 /* UIView+LYSAliquots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYSAliquots.m"; sourceTree = "<group>"; };
 		2BF3F421033D80E23974A48A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		49749064D3A6FDAC19F1D34C /* LYSRepo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYSRepo.podspec; path = ../LYSRepo.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LYSRepo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSRepo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,9 +107,28 @@
 		0D7E0BE71E70320C00BFEEC9 /* LYSRepo */ = {
 			isa = PBXGroup;
 			children = (
+				0D908DEF1E711E58004D0E29 /* LYSAliquots */,
 			);
 			name = LYSRepo;
 			path = ../LYSRepo;
+			sourceTree = "<group>";
+		};
+		0D908DE81E711939004D0E29 /* color */ = {
+			isa = PBXGroup;
+			children = (
+				0D908DE91E711949004D0E29 /* LYSColor.h */,
+				0D908DEA1E711949004D0E29 /* LYSColor.m */,
+			);
+			name = color;
+			sourceTree = "<group>";
+		};
+		0D908DEF1E711E58004D0E29 /* LYSAliquots */ = {
+			isa = PBXGroup;
+			children = (
+				0D908DF01E711E58004D0E29 /* UIView+LYSAliquots.h */,
+				0D908DF11E711E58004D0E29 /* UIView+LYSAliquots.m */,
+			);
+			path = LYSAliquots;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -141,11 +169,14 @@
 		6003F593195388D20070C39A /* Example for LYSRepo */ = {
 			isa = PBXGroup;
 			children = (
+				0D908DE81E711939004D0E29 /* color */,
 				6003F59C195388D20070C39A /* LYSAppDelegate.h */,
 				6003F59D195388D20070C39A /* LYSAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LYSViewController.h */,
 				6003F5A6195388D20070C39A /* LYSViewController.m */,
+				0D908DE51E711855004D0E29 /* LYSAliguotsViewController.h */,
+				0D908DE61E711855004D0E29 /* LYSAliguotsViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -403,7 +434,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D908DE71E711855004D0E29 /* LYSAliguotsViewController.m in Sources */,
 				6003F59E195388D20070C39A /* LYSAppDelegate.m in Sources */,
+				0D908DEB1E711949004D0E29 /* LYSColor.m in Sources */,
+				0D908DF21E711E58004D0E29 /* UIView+LYSAliquots.m in Sources */,
 				6003F5A7195388D20070C39A /* LYSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
