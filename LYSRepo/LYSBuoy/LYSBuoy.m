@@ -164,6 +164,8 @@
             newCenter = CGPointMake(panPoint.x, ballHeight / 2.0);
         }else if (minSpace == bottom) {
             newCenter = CGPointMake(panPoint.x, screenHeight - ballHeight / 2.0);
+        }else {
+            newCenter = CGPointZero;
         }
         
         [UIView animateWithDuration:.25 animations:^{
