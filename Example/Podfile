@@ -4,6 +4,7 @@ target 'LYSRepo_Example' do
     
     pod 'Masonry', '~> 1.0.2'
     
+     pod 'LYSRepo', '~> 0.1.0'
     
 
   target 'LYSRepo_Tests' do

@@ -29,6 +29,14 @@
                                     <segue destination="97A-nI-q2L" kind="push" id="Uci-G0-QVF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAs-Ze-4nO">
+                                <rect key="frame" x="52" y="207" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="buoy"/>
+                                <connections>
+                                    <segue destination="rPZ-Ug-pkm" kind="push" id="PsV-C0-1J8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -37,6 +45,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1244" y="432.23388305847078"/>
+        </scene>
+        <!--Buoy View Controller-->
+        <scene sceneID="oDb-Kd-wUF">
+            <objects>
+                <viewController id="rPZ-Ug-pkm" customClass="LYSBuoyViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Ni-HI-4KB"/>
+                        <viewControllerLayoutGuide type="bottom" id="1ow-Cm-aRv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Uk-QQ-thd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="y8N-9o-Tu3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FJb-Gh-mAR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1953" y="632"/>
         </scene>
         <!--Aliguots View Controller-->
         <scene sceneID="p61-VD-pQE">

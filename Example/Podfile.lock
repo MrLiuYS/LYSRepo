@@ -1,12 +1,20 @@
 PODS:
+  - LYSRepo (0.1.0):
+    - LYSRepo/LYSAliquots (= 0.1.0)
+    - LYSRepo/LYSTextfield (= 0.1.0)
+  - LYSRepo/LYSAliquots (0.1.0):
+    - Masonry (~> 1.0.2)
+  - LYSRepo/LYSTextfield (0.1.0)
   - Masonry (1.0.2)
 
 DEPENDENCIES:
+  - LYSRepo (~> 0.1.0)
   - Masonry (~> 1.0.2)
 
 SPEC CHECKSUMS:
+  LYSRepo: 469c7d0a3fe0b70f6c2a9735fe189ce36633a66b
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
-PODFILE CHECKSUM: 281a10a02b9ed36013b430f73e5e158df369a700
+PODFILE CHECKSUM: ed4e4d7ada9a67e33ad547f4f9d0492f87cff043
 
 COCOAPODS: 1.1.1

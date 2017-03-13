@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYSRepo'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '工具.'
 
   s.description      = <<-DESC
@@ -32,6 +32,10 @@ TODO: Add long description of the pod here.
 
     s.subspec 'LYSTextfield' do |ss|
         ss.source_files = 'LYSRepo/LYSTextfield/**/*.{h,m}'
+    end
+
+    s.subspec 'LYSBuoy' do |ss|
+        ss.source_files = 'LYSRepo/LYSBuoy/**/*.{h,m}'
     end
 
 
