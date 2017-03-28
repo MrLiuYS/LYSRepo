@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1CC9F91E89E62A006C87D8 /* LYSSystemTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1CC9F81E89E62A006C87D8 /* LYSSystemTimeLabel.m */; };
 		0D908DE71E711855004D0E29 /* LYSAliguotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D908DE61E711855004D0E29 /* LYSAliguotsViewController.m */; };
 		0D908DEB1E711949004D0E29 /* LYSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D908DEA1E711949004D0E29 /* LYSColor.m */; };
 		0D908DF21E711E58004D0E29 /* UIView+LYSAliquots.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D908DF11E711E58004D0E29 /* UIView+LYSAliquots.m */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D1CC9F71E89E62A006C87D8 /* LYSSystemTimeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSSystemTimeLabel.h; sourceTree = "<group>"; };
+		0D1CC9F81E89E62A006C87D8 /* LYSSystemTimeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSSystemTimeLabel.m; sourceTree = "<group>"; };
 		0D908DE51E711855004D0E29 /* LYSAliguotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSAliguotsViewController.h; sourceTree = "<group>"; };
 		0D908DE61E711855004D0E29 /* LYSAliguotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSAliguotsViewController.m; sourceTree = "<group>"; };
 		0D908DE91E711949004D0E29 /* LYSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSColor.h; sourceTree = "<group>"; };
@@ -116,9 +119,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D1CC9F61E89E606006C87D8 /* LYSSystemTimeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0D1CC9F71E89E62A006C87D8 /* LYSSystemTimeLabel.h */,
+				0D1CC9F81E89E62A006C87D8 /* LYSSystemTimeLabel.m */,
+			);
+			path = LYSSystemTimeLabel;
+			sourceTree = "<group>";
+		};
 		0D7E0BE71E70320C00BFEEC9 /* LYSRepo */ = {
 			isa = PBXGroup;
 			children = (
+				0D1CC9F61E89E606006C87D8 /* LYSSystemTimeLabel */,
 				0D9D033E1E7633590023B7D5 /* LYSBuoy */,
 				0D908DF31E711FA5004D0E29 /* LYSTextfield */,
 				0D908DEF1E711E58004D0E29 /* LYSAliquots */,
@@ -479,6 +492,7 @@
 				0D9D03471E76645E0023B7D5 /* LYSBuoyViewController.m in Sources */,
 				0D908DF21E711E58004D0E29 /* UIView+LYSAliquots.m in Sources */,
 				6003F5A7195388D20070C39A /* LYSViewController.m in Sources */,
+				0D1CC9F91E89E62A006C87D8 /* LYSSystemTimeLabel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

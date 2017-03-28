@@ -10,8 +10,14 @@
 
 #import "LYSBuoy.h"
 
+#import "LYSSystemTimeLabel.h"
 
-@interface LYSBuoyViewController ()
+
+@interface LYSBuoyViewController () {
+    
+    LYSSystemTimeLabel * label;
+    
+}
 
 @end
 
@@ -59,8 +65,13 @@
     
     GLYSBuoy.embed(10);
 
+    label = [[LYSSystemTimeLabel alloc]init];
 
-
+    [self.view addSubview:label];
+   
+    
+    label.frame = CGRectMake(100, 100, 300, 100);
+    
     
     
 }

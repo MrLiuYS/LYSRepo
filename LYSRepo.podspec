@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYSRepo'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = '工具.'
 
   s.description      = <<-DESC
@@ -36,6 +36,10 @@ TODO: Add long description of the pod here.
 
     s.subspec 'LYSBuoy' do |ss|
         ss.source_files = 'LYSRepo/LYSBuoy/**/*.{h,m}'
+    end
+
+    s.subspec 'LYSSystemTimeLabel' do |ss|
+        ss.source_files = 'LYSRepo/LYSSystemTimeLabel/**/*.{h,m}'
     end
 
 

@@ -215,15 +215,10 @@
 - (LYSBuoy *(^)(UIImage * image)) image {
     
     return ^id(UIImage * image){
-      
+        
         if (image) {
             
             self.imageView.image = image;
-            
-            self.frame = CGRectMake([[UIScreen mainScreen] bounds].size.width - image.size.width,
-                                    [[UIScreen mainScreen] bounds].size.height - image.size.height - 100,
-                                    image.size.width,
-                                    image.size.height);
             
         }
         
@@ -296,7 +291,7 @@
     
     return ^id(BOOL isHidden){
         
-        self.hidden = isHidden;
+        [LYSBuoyM windowForKey:self.md5Key].hidden = isHidden;
         
         return self;
     };
@@ -307,7 +302,7 @@
 - (LYSBuoy *(^)()) remove {
     
     return ^id(){
-         [LYSBuoyM removeWindowForKey:self.md5Key];
+        [LYSBuoyM removeWindowForKey:self.md5Key];
         return self;
     };
     
